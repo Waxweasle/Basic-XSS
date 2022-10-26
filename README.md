@@ -62,3 +62,10 @@
 
 ### When testing for Blind XSS vulnerabilities,  need to ensure payload has a call back (usually an HTTP request)- can tell if code is being executed.
 
+---
+# Polyglot
+### String of text which can escape attributes, tags and bypass filters all in one eg:
+
+`jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('popup') )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('THM')//>\x3e`
+
+
